@@ -10,6 +10,8 @@ include_once 'Tyreckix/Log.php';
 
 $arr=array();
 
+Tyreckix\Log::log('Version '.file_get_contents('./version'));
+
 $arr[] = readline("a= ");
 $arr[] = readline("b= ");
 $arr[] = readline("c= ");
