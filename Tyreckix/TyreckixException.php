@@ -1,5 +1,5 @@
 <?php
 namespace Tyreckix;
-class TyreckixException extends RuntimeException
+class TyreckixException extends \RuntimeException
 {
 }
